@@ -1,0 +1,8 @@
+<h1>Palestras</h1>
+
+{% for palestra in palestras %}
+  <h2>Titulo: {{ palestra.titulo }}</h2>
+  <h3>Palestrante: {{ palestra.palestrante }}</h3>
+  <h3>Horario: {{ palestra.horario }}</h3>
+  <br><br>
+{% endfor %}
